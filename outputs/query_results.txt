@@ -1,0 +1,97 @@
+FOOD DELIVERY MANAGEMENT SYSTEM
+SQL QUERY RESULTS
+========================================
+
+1️⃣ List all restaurants
+=============================
+restaurant_id | restaurant_name   | city
+------------------------------------------
+1             | Spice Villa         | Bengaluru
+2             | Pizza Point        | Hyderabad
+3             | Café Aroma   | Mumbai
+4      | Sushi Hub   | Chennai
+
+2️⃣ List all customers
+=============================
+customer_id | customer_name   | city
+-------------------------------------
+1           | Ravi Kumar       | Bengaluru
+2           | Sneha Rao        | Hyderabad
+3           | Amit Sharma      | Mumbai
+4           | Ritika Sharma    | Chennai
+
+
+3️⃣ List all delivery agents
+=============================
+agent_id | agent_name     | contact_number
+------------------------------------------
+1        | Arjun Mehta     | 9876543210
+2        | Divya Singh     | 9123456780
+3        | Karan Patel     | 9998877665
+
+
+4️⃣ Orders and their restaurant details
+=============================
+order_id | customer_name | restaurant_name | total_amount | status
+-------------------------------------------------------------------
+101      | Ravi Kumar     | Spice Villa     | 250.00       | Delivered
+102      | Sneha Rao      | Pizza Point     | 180.00       | Delivered
+103      | Amit Sharma    | Café Aroma      | 330.00       | Delivered
+104      | Ritika Sharma  | Sushi Hub       | 500.00       | Pending
+
+
+5️⃣ Calculate total revenue per restaurant
+=============================
+restaurant_name | total_revenue
+--------------------------------
+Spice Villa      | 250.00
+Pizza Point      | 180.00
+Café Aroma       | 330.00
+Sushi Hub        | 500.00
+
+
+6️⃣ Find top 3 most ordered dishes
+=============================
+item_name              | times_ordered
+--------------------------------------
+Paneer Butter Masala   | 3
+Veg Pizza              | 2
+Cappuccino             | 2
+
+
+7️⃣ Show average delivery time per restaurant
+=============================
+restaurant_name | avg_delivery_time (mins)
+-------------------------------------------
+Spice Villa      | 35
+Pizza Point      | 25
+Café Aroma       | 40
+Sushi Hub        | NULL (pending order)
+
+
+8️⃣ Orders assigned to each delivery agent
+=============================
+agent_name  | order_id | customer_name | status
+-----------------------------------------------
+Arjun Mehta | 101      | Ravi Kumar     | Delivered
+Divya Singh | 102      | Sneha Rao      | Delivered
+Karan Patel | 103      | Amit Sharma    | Delivered
+Karan Patel | 104      | Ritika Sharma  | Pending
+
+
+9️⃣ List customers who have spent more than ₹300
+=============================
+customer_name | total_spent
+--------------------------------
+Amit Sharma    | 330.00
+Ritika Sharma  | 500.00
+
+
+🔟 Find restaurant with the highest total revenue
+=============================
+restaurant_name | total_revenue
+--------------------------------
+Sushi Hub        | 500.00
+
+========================================
+END OF QUERY OUTPUTS
