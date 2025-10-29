@@ -101,10 +101,6 @@ Run 03_queries.sql to view insights and outputs.
 👩‍💻 Author
 
 Aishwarya Mantrannavar
-📧 aishwarya@gmail.com
+📧 aishwaryamantrannavara@gmail.com
 
-💼 GitHub Profile
-
-🏷️ Tags
-
-MySQL Database Design SQL Project Food Delivery System RDBMS Data Analysis
+💼 github.com/aishwaryamantrannavar28
