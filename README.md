@@ -100,7 +100,8 @@ Run 03_queries.sql to view insights and outputs.
 
 👩‍💻 Author
 
-Aishwarya Mantrannavar
+Aishwarya Mahantesh Mantrannavar
+
 📧 aishwaryamantrannavara@gmail.com
 
 💼 github.com/aishwaryamantrannavar28
